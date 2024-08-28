@@ -1,0 +1,7 @@
+/*
+ Quantcast measurement tag
+ Copyright (c) 2008-2022, Quantcast Corp.
+*/
+'use strict';(function(e,h,f){var k=function(a){var b=f.createElement("a");b.href=a;return b},l=[/^http[s]?:\/\/((adservice.google.*)|([^\/]*fls\.doubleclick\.net))\/.*~oref=(?<url>[^;\n]*)/,/^http[s]?:\/\/[^\/]*tealium.*\/.*page_url=(?<url>[^&]*)/],m=function(){if(h.top!==h.self){try{for(var a=0;a<l.length;a++){var b=f.location.href.match(l[a]);if(b&&b.groups.url){var c=decodeURIComponent(b.groups.url);break}}}catch(d){}return c?k(c):k(f.referrer)}return f.location},n=function(a,b,c){return a?"nc"===
+a?!b||!c||0>b.indexOf(c):"eq"===a?b===c:"sw"===a?0===b.indexOf(c):"ew"===a?(a=b.length-c.length,b=b.lastIndexOf(c,a),-1!==b&&b===a):"c"===a?0<=b.indexOf(c):!1:!1},p=function(a,b,c){var d=m().href;n(b,d,c)?a(d):a(!1)},g=function(a){return"array"==={}.toString.call(a).match(/\s([a-zA-Z]+)/)[1].toLowerCase()?{labels:a.join(",")}:{labels:""+a}};try{__qc("defaults",e,{labels:"_fp.event.Default"})}catch(a){}__qc.apply(null,["rules",[e,null,[[g,"_fp.event.Secure Car Loan LP"]],[[p,"eq","https://www.tmbank.com.au/loans/secured-new-car-loan"]]],
+[e,null,[[g,"_fp.event.Car Loan LP"]],[[p,"eq","https://www.tmbank.com.au/loans/car-loan"]]],[e,null,[[g,"_fp.event.Homepage"]],[[function(a,b,c){var d=m().pathname;n(b,d,c)?a(d):a(!1)},"eq","/"]]]])})("p-U1w9Z-v5wgFTs",window,document);
